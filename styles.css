@@ -1,0 +1,51 @@
+.card-body{
+    text-align: center;
+}
+.card-body a{
+    text-decoration: none;
+    color: black;
+}
+.rate{
+    margin: 1px;
+    margin-right: 5px;
+    background-color: green;
+    color: white;
+}
+.card h6{
+    color: slategrey;
+    margin: 4px;
+}
+.offer{
+    margin-left: 2px;
+    color: green;
+}
+.card-body h5:hover{
+    cursor: pointer;
+    color: blue;
+}
+.box :hover{
+    transform: scale(1.03);
+    transition: all 0.2s linear;
+}
+
+@media screen and (max-width: 500px) {
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+    .carouselExampleIndicators{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+@media screen and (max-width: 700px){
+    
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+}
